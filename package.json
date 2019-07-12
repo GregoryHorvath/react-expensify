@@ -1,0 +1,29 @@
+{
+	"name": "indecision-app",
+	"version": "1.0.0",
+	"main": "index.js",
+	"author": "Horváth Gergely",
+	"license": "MIT",
+	"scripts": {
+		"serve": "live-server public",
+		"build": "webpack",
+		"dev-server": "webpack-dev-server"
+	},
+	"devDependencies": {
+		"webpack-cli": "^3.3.5"
+	},
+	"dependencies": {
+		"@babel/core": "^7.5.4",
+		"@babel/preset-env": "^7.5.4",
+		"@babel/preset-react": "^7.0.0",
+		"babel-core": "^6.26.3",
+		"babel-loader": "^8.0.6",
+		"babel-preset-env": "^1.7.0",
+		"babel-preset-react": "^6.24.1",
+		"react": "^16.8.6",
+		"react-dom": "^16.8.6",
+		"validator": "^11.1.0",
+		"webpack": "^4.35.3",
+		"webpack-dev-server": "^3.7.2"
+	}
+}
