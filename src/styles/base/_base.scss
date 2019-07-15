@@ -3,9 +3,8 @@ html {
 }
 
 body {
-	font-family: Helvetica, Roboto, Arial, sans-serif;
+	font-family: Helvetica, "Roboto Condensed", Arial, sans-serif;
 	font-size: $m-size;
-	background-color: $dark-blue;
 }
 
 button {
@@ -14,4 +13,8 @@ button {
 
 button:disabled {
 	cursor: default;
+}
+
+.is-active {
+	font-weight: bold;
 }
